@@ -20,7 +20,7 @@ function App() {
       <div className="App">
         <header>
           Color Picker Sprint Challenge
-          <a data-testid="logoutButton" href="#" onClick={logoutButton} >logout</a>
+          <a data-testid="logoutButton" href="/" onClick={logoutButton} >logout</a>
         </header> 
 
         <Route exact path="/" component={Login} />
