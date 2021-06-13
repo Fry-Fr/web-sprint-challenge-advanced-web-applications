@@ -4,7 +4,7 @@ import BubblePage from './BubblePage';
 
 const PrivateRoute = (props) => {
     return (
-        <Route path="/bubblepage" {...props} render={(props) => {
+        <Route path="/bubbles" {...props} render={(props) => {
             if (localStorage.getItem('token')){
                 return (<BubblePage {...props} />)
             }else{
